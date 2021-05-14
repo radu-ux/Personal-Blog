@@ -30,9 +30,9 @@ export function Resume() {
                     </ul>
                 </div>
                 {/* EDUCATION SECTION */}
-                <div className="mx-5 mt-12 sm:mt-20 sm:mx-32">
+                <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">
                     <div className="border-b-2 text-xl font-medium uppercase tracking-widest text-blue-900 border-blue-900 sm:border-b-4 sm:text-2xl md:text-3xl">Education</div>
-                    <ul className="py-3 mx-10 list-disc">
+                    <ul className="pt-3 mx-10 list-disc">
                         <li className="text-md font-semibold sm:text-xl md:text-2xl">West University of Timisoara</li>
                         <div className="block mx-5 py-3 text-sm font-normal sm:text-md md:text-xl sm:font-light">
                             <span className="block pb-2 text-blue-900 sm:text-red-600">Faculty of Mathematics and Informatics.</span>
@@ -44,7 +44,7 @@ export function Resume() {
                     </ul>
                 </div>
                 {/* SKILLS SECTION */}
-                <div className="mx-5 mt-12 sm:mt-20 sm:mx-32">
+                <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">
                     <div className="border-b-2 text-xl font-medium uppercase tracking-widest text-blue-900 border-blue-900 sm:border-b-4 sm:text-2xl md:text-3xl">Skills</div>
                     <ul className="py-3 mx-10 list-disc">
                         <li className="text-md font-semibold sm:text-xl md:text-2xl">Programming Languages and OOP</li>
@@ -52,7 +52,7 @@ export function Resume() {
                             <span className="block pb-2">Knowledge of C/C++, Python, Java acquired throughout the years of faculty</span>
                         </div>
                         <li className="text-md font-semibold sm:text-xl md:text-2xl">Web Technology Area</li>
-                        <div className="block mx-5 py-3 text-sm font-normal sm:text-md md:text-xl sm:font-light">
+                        <div className="block mx-5 pt-3 text-sm font-normal sm:text-md md:text-xl sm:font-light">
                             <span className="block pb-2">Knowledge of JavaScript, CSS, HTML, React.</span>
                             <span className="block pb-2">Basic knowledge of Bootstrap, TailwindCSS, NodeJS, ExpressJS, MongoDB</span>
                             <span className="block pb-2">Accustomed with Git version control system</span>
@@ -60,7 +60,7 @@ export function Resume() {
                     </ul>
                 </div>
                 {/* ABILITIES SECTION */}
-                <div className="mx-5 mt-12 sm:mt-20 sm:mx-32">
+                <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">
                     <div className="border-b-2 text-xl font-medium uppercase tracking-widest text-blue-900 border-blue-900 sm:border-b-4 sm:text-2xl md:text-3xl">Abilities</div>
                     <ul className="py-3 mx-10 list-disc">
                         <li className="text-md font-semibold sm:text-xl md:text-2xl">Responsible and involved in all tasks that are assigned to me</li>
@@ -73,7 +73,7 @@ export function Resume() {
                     </ul>
                 </div>
                 {/* FOREIGN LANGUAGES SECTION */}
-                <div className="mx-5 mt-12 sm:mt-20 sm:mx-32">
+                <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">
                     <div className="border-b-2 text-xl font-medium uppercase tracking-widest text-blue-900 border-blue-900 sm:border-b-4 sm:text-2xl md:text-3xl">Foreign Languages</div>
                     <ul className="py-3 mx-10 list-disc">
                         <li className="text-md font-semibold sm:text-xl md:text-2xl">English, B2 level</li>
