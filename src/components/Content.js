@@ -19,7 +19,7 @@ export function Content() {
                 </span>
             </div>
             <div>
-                <img className="order-1 w-8/12 py-20 mx-auto md:w-full md:py-32 lg:py-28 lg:w-10/12 xl:py-20" src={HeroLogo}></img>
+                <img className="order-1 w-8/12 py-20 mx-auto md:w-full md:py-32 lg:py-28 lg:w-10/12 xl:py-20" src={HeroLogo} alt="Hero Logo"></img>
             </div>
       </div>
     )

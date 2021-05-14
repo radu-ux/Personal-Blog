@@ -8,9 +8,9 @@ export function Footer() {
     };
 
     const icons = [
-        {socialMediaUrl: "https://facebook.com"},
-        {socialMediaUrl: "https://instagram.com"},
-        {socialMediaUrl: "https://github.com"}
+        {socialMediaUrl: "https://www.facebook.com/radu.iulian.524/"},
+        {socialMediaUrl: "https://www.instagram.com/raduiulian22/"},
+        {socialMediaUrl: "https://github.com/radu-ux"}
     ]
 
     return (

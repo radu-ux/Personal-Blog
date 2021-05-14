@@ -14,7 +14,7 @@ export function Resume() {
             <Nav />
             <div className="flex flex-col">
                 <div className="mt-20 mx-auto text-xs sm:text-md">
-                    Contact: <a  href="#"><IoAtCircle style={iconStyle} /> radu.uivari99@gmail.com</a> | <IoCallSharp style={iconStyle}/> (0765) 994 217
+                    Contact: <a  href="mailto:radu.uivari99@gmail.com"><IoAtCircle style={iconStyle} /> radu.uivari99@gmail.com</a> | <IoCallSharp style={iconStyle}/> (0765) 994 217
                 </div>
                 {/* EXPERIENCE SECTION */}
                 <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">

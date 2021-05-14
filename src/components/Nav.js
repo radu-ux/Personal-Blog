@@ -1,4 +1,4 @@
-import { Disclosure, Menu } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from '@heroicons/react/solid';
 import WebsiteLogo from '../assets/Personal-Website-Logo.svg';
 
@@ -6,7 +6,7 @@ export function Nav() {
     const navigationOptions = [
       {option: "About", url:"/about"},
       {option: "Projects", url:"/projects"},
-      {option: "Resume", url:"/resume"}, 
+      {option: "Resumé", url:"/resume"}, 
       {option: "Home", url:"/"}
     ];
 
@@ -15,7 +15,7 @@ export function Nav() {
           {({ open }) => (
               <div className="relative">
                   <Disclosure.Button className="absolute flex w-full justify-between px-5 py-2 bg-purple-100 sm:hidden">
-                    <span><img src={WebsiteLogo} className="w-10/12"></img></span>
+                    <span><img src={WebsiteLogo} alt="Logo" className="w-10/12"></img></span>
                     <ChevronUpIcon
                       className={`${
                         open ? "transform rotate-180" : ""
@@ -24,7 +24,7 @@ export function Nav() {
                   </Disclosure.Button>
                   <div className="flex justify-between bg-purple-100 hidden shadow-md sm:flex">
                         <div className="px-5 py-2">
-                        <a href="/"><img src={WebsiteLogo}></img></a>
+                        <a href="/"><img src={WebsiteLogo} alt="Logo"></img></a>
                         </div>
                         <div className="py-4">
                           {

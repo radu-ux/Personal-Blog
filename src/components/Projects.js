@@ -1,10 +1,10 @@
 import { Nav } from './Nav';
 import { Footer } from './Footer';
 import { ProjectDescription } from './ProjectDescription';
-import StudentInfoAppImg from '../assets/Student-Info-App.gif';
-import WeatherAppImage from '../assets/Weather-App.png';
+import StudentInfoAppImg from '../assets/Student-Info-App.svg';
+import WeatherAppImage from '../assets/Weather-App.svg';
 import AiAppImage from '../assets/AI-App.svg';
-import DataVisualizationAppImage from '../assets/Data-Visualization-App.png';
+import DataVisualizationAppImage from '../assets/Data-Visualization-App.svg';
 
 export function Projects() {
     const projects = [
@@ -12,28 +12,28 @@ export function Projects() {
             project_name:"Student Info App", 
             project_descr:"An application for managing the grades situation for students at their courses.", 
             tech_used:"React, Express, MongoDB, D3.js", 
-            git_repo_link:"https://github.com/radu-ux",
+            git_repo_link:"https://github.com/radu-ux/WT-Project",
             image:StudentInfoAppImg
         },
         {
             project_name:"Weather Application", 
-            project_descr:"A team project in collaboration with Nokia that gathers weather info from a ESP8266 Arduino Board", 
+            project_descr:"A team project in collaboration with Nokia that gathers weather info from an ESP8266 Arduino Board", 
             tech_used:"C++, Java, Android Studio", 
-            git_repo_link:"https://github.com/radu-ux", 
+            git_repo_link:"https://github.com/radu-ux/Weather-Application", 
             image:WeatherAppImage
         },
         {
             project_name:"Basic AI for Image Recognition", 
             project_descr:"An web application for recognizing simple drawings like: cats, dogs or rainbows.", 
             tech_used:"JavaScript, CSS, HTML", 
-            git_repo_link:"https://github.com/radu-ux", 
+            git_repo_link:"https://github.com/radu-ux/Artificial-Inteligence", 
             image:AiAppImage
         },
         {
             project_name:"Data Visualization with D3.js", 
             project_descr:"My Bachelor Thesis, a web app for displaying all kinds of statistics based on some predefined topics", 
             tech_used:"React, React Hooks, json-server, D3.js, Bootstrap", 
-            git_repo_link:"https://github.com/radu-ux", 
+            git_repo_link:"https://github.com/radu-ux/Bachelor_Thesis", 
             image:DataVisualizationAppImage
         }
     ];
