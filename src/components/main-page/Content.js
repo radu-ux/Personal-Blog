@@ -1,8 +1,8 @@
-import HeroLogo from "../assets/blog_hero_logo.svg";
+import HeroLogo from "../../assets/blog_hero_logo.svg";
 
 export function Content() {
     return (
-        <div className="flex flex-col py-10 md:grid md:grid-cols-2">
+        <div className="flex flex-col py-10 h-full md:h-screen md:grid md:grid-cols-2">
             <div className="order-2 mx-auto px-8 md:px-10 md:py-32 md:max-w-3xl">
                 <span className="text-2xl md:text-4xl lg:text-5xl font-bold text-purple-900">
                     Hello World ! 

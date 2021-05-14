@@ -1,20 +1,33 @@
-import { Nav } from './Nav';
-import { Footer } from './Footer';
+import { Nav } from '../shared/Nav';
+import { Footer } from '../shared/Footer';
 import { IoAtCircle, IoCallSharp } from 'react-icons/io5';
+import { useRef } from 'react';
 
 export function Resume() {
+    const mailValue = useRef()
+
     const iconStyle = {
         width: "15px",
         height: "15px",
         display: "inline"
     };
 
+    const handleOnMouseOver = () => {
+        mailValue.current.style.borderBottom = "2px";
+        mailValue.current.style.borderColor = "black";
+        mailValue.current.style.borderStyle = "solid";
+     }
+
+    const handleMouseOut = () => {
+        mailValue.current.style.borderBottom = "0";
+    }
+
     return (
         <>
             <Nav />
             <div className="flex flex-col">
                 <div className="mt-20 mx-auto text-xs sm:text-md">
-                    Contact: <a  href="mailto:radu.uivari99@gmail.com"><IoAtCircle style={iconStyle} /> radu.uivari99@gmail.com</a> | <IoCallSharp style={iconStyle}/> (0765) 994 217
+                    Contact: <a onMouseOver={handleOnMouseOver} onMouseOut={handleMouseOut} href="mailto:radu.uivari99@gmail.com"><IoAtCircle style={iconStyle} /> <span ref={mailValue}>radu.uivari99@gmail.com</span></a> | <IoCallSharp style={iconStyle}/> (0765) 994 217
                 </div>
                 {/* EXPERIENCE SECTION */}
                 <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">

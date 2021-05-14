@@ -1,10 +1,10 @@
-import { Nav } from './Nav';
-import { Footer } from './Footer';
-import { ProjectDescription } from './ProjectDescription';
-import StudentInfoAppImg from '../assets/Student-Info-App.svg';
-import WeatherAppImage from '../assets/Weather-App.svg';
-import AiAppImage from '../assets/AI-App.svg';
-import DataVisualizationAppImage from '../assets/Data-Visualization-App.svg';
+import { Nav } from '../shared/Nav';
+import { Footer } from '../shared/Footer';
+import { ProjectDescription } from '../projects-page/ProjectDescription';
+import StudentInfoAppImg from '../../assets/Student-Info-App.svg';
+import WeatherAppImage from '../../assets/Weather-App.svg';
+import AiAppImage from '../../assets/AI-App.svg';
+import DataVisualizationAppImage from '../../assets/Data-Visualization-App.svg';
 
 export function Projects() {
     const projects = [

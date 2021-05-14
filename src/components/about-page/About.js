@@ -1,11 +1,11 @@
-import { Nav } from './Nav';
-import { Footer } from './Footer';
-import FacultyImage from '../assets/UVT-Image.jpg';
-import ReactImage from '../assets/React-Image.png';
-import BootstrapImage from '../assets/Bootstrap-Image.png';
-import TailwindCSSImage from '../assets/TailwindCSS-Image.svg';
-import BikeRidingImage from '../assets/BikeRiding-Image.jpg';
-import FootballImage from '../assets/Football-Image.jpg';
+import { Nav } from '../shared/Nav';
+import { Footer } from '../shared/Footer';
+import FacultyImage from '../../assets/UVT-Image.jpg';
+import ReactImage from '../../assets/React-Image.png';
+import BootstrapImage from '../../assets/Bootstrap-Image.png';
+import TailwindCSSImage from '../../assets/TailwindCSS-Image.svg';
+import BikeRidingImage from '../../assets/BikeRiding-Image.jpg';
+import FootballImage from '../../assets/Football-Image.jpg';
 
 export function About() {
     return (

@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from '@heroicons/react/solid';
-import WebsiteLogo from '../assets/Personal-Website-Logo.svg';
+import WebsiteLogo from '../../assets/Personal-Website-Logo.svg';
 
 export function Nav() {
     const navigationOptions = [
