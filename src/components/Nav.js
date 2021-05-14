@@ -6,7 +6,8 @@ export function Nav() {
     const navigationOptions = [
       {option: "About", url:"/about"},
       {option: "Projects", url:"/projects"},
-      {option: "Resume", url:"/resume"}
+      {option: "Resume", url:"/resume"}, 
+      {option: "Home", url:"/"}
     ];
 
     return (
@@ -28,7 +29,11 @@ export function Nav() {
                         <div className="py-4">
                           {
                             navigationOptions.map((item, index) => {
-                              return <a key={index} href={item.url} className="px-5 hover:text-indigo-500">{item.option}</a>
+                              if(item.option !== "Home") {
+                                return <a key={index} href={item.url} className="px-5 hover:text-indigo-500">{item.option}</a>
+                              } else {
+                                return null;
+                              }
                             })
                           }
                         </div>
