@@ -24,7 +24,7 @@ export function Projects() {
         },
         {
             project_name:"Basic AI for Image Recognition", 
-            project_descr:"An web application for recognizing simple drawings like: cats, dogs or rainbows.", 
+            project_descr:"A web application for recognizing simple drawings like: cats, dogs or rainbows.", 
             tech_used:"JavaScript, CSS, HTML", 
             git_repo_link:"https://github.com/radu-ux/Artificial-Inteligence", 
             image:AiAppImage
