@@ -11,7 +11,7 @@ export function About() {
     return (
         <>
             <Nav />
-            <div className="flex flex-col py-20 md:grid md:grid-rows-2 md:mt-10">
+            <div className="flex flex-col py-20 ">
                 {/* Current Attributes Section*/}
                 <div className="flex flex-col mb-16 md:grid md:grid-cols-3">
                     <div className="mb-8 px-5 md:col-span-2 text-xl md:px-5">

@@ -5,8 +5,8 @@ export function ProjectDescription(props) {
             <div className="border-b-4 border-purple-300 w-16 md:w-20 lg:w-20"></div>
             <div className="text-xl py-2 font-semibold md:text-2xl">{title}</div>
             <a href={git_repo_link}>
-                <img className="border border-radius-xl border-blue-900 transition duration-500 transform rounded-xl scale-100
-                                hover:scale-95 hover:shadow-xl" 
+                <img className="z-30 border border-radius-xl border-blue-900 transition duration-500 transform rounded-xl scale-100
+                                hover:scale-95 hover:shadow-xl"
                     src={image}
                     alt="Project">
                 </img>   

@@ -26,8 +26,9 @@ export function Resume() {
         <>
             <Nav />
             <div className="flex flex-col">
-                <div className="mt-20 mx-auto text-xs sm:text-md">
-                    Contact: <a className="cursor-pointer" onMouseDown={handleOnMouseOver} onMouseUp={handleOnMouseOut} onMouseOver={handleOnMouseOver} onMouseOut={handleOnMouseOut} href="mailto:radu.uivari99@gmail.com"><IoAtCircle style={iconStyle} /> <span ref={mailValue}>radu.uivari99@gmail.com</span></a> | <IoCallSharp style={iconStyle}/> (0765) 994 217
+                <div className="mt-20 ml-auto mx-auto text-xs sm:text-sm">
+                    Contact: <a className="cursor-pointer" onMouseDown={handleOnMouseOver} onMouseUp={handleOnMouseOut} onMouseOver={handleOnMouseOver} onMouseOut={handleOnMouseOut} href="mailto:radu.uivari99@gmail.com"><IoAtCircle style={iconStyle} /> <span ref={mailValue}>radu.uivari99@gmail.com </span></a>
+                    | <IoCallSharp style={iconStyle}/> (0765) 994 217
                 </div>
                 {/* EXPERIENCE SECTION */}
                 <div className="mx-5 mt-8 sm:mt-20 sm:mx-32">

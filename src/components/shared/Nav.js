@@ -11,7 +11,7 @@ export function Nav() {
     ];
 
     return (
-        <Disclosure as="nav">
+        <Disclosure as="nav" className="z-10 fixed w-full">
           {({ open }) => (
               <div className="relative">
                   <Disclosure.Button className="absolute flex w-full justify-between px-5 py-2 bg-purple-100 sm:hidden">
@@ -38,7 +38,7 @@ export function Nav() {
                           }
                         </div>
                   </div>
-                  <Disclosure.Panel className="flex flex-col px-4 pt-14 pb-2 text-md text-gray-500 divide-y divide-gray-200 shadow-md sm:hidden">
+                  <Disclosure.Panel className="bg-white flex flex-col px-4 pt-14 pb-2 text-md text-white-900 divide-y divide-gray-200 shadow-md sm:hidden">
                     {
                       navigationOptions.map((item, index) => {
                         return <a key={index} href={item.url} className="py-2 hover:text-indigo-500">{item.option}</a>
