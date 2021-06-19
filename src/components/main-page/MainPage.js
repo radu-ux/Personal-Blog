@@ -1,4 +1,4 @@
-import { Nav } from '../shared/Nav';
+import Nav from '../shared/Nav';
 import { Footer}  from '../shared/Footer'
 import { Content } from './Content';
 

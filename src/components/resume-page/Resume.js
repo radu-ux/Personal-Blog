@@ -1,4 +1,4 @@
-import { Nav } from '../shared/Nav';
+import Nav from '../shared/Nav';
 import { Footer } from '../shared/Footer';
 import { IoAtCircle, IoCallSharp } from 'react-icons/io5';
 import { useRef } from 'react';

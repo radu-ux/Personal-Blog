@@ -1,4 +1,4 @@
-import { Nav } from '../shared/Nav';
+import Nav from '../shared/Nav';
 import { Footer } from '../shared/Footer';
 import FacultyImage from '../../assets/UVT-Image.jpg';
 import ReactImage from '../../assets/React-Image.png';
@@ -51,8 +51,8 @@ export function About() {
                     <div className="mb-8 px-5 text-xl md:py-10 md:col-span-2 md:px-5 xl:py-20">
                         <span className="block text-2xl font-semibold border-b-2 mb-3">Free Time Passions</span>
                         I consider myself an active person. I recently started going to gym and I might say that at this 
-                        moment I can't see my life without this activity. Apart from going to gym, I also like to play football
-                        with my friends and bike riding. Hanging auto is a clear option when it comes to spending free time.
+                        moment I can't see my life without this activity. Apart from going to gym, I also like playing football
+                        with my friends and cycling. Hanging out is a clear option when it comes to spending free time.
                     </div>
                     <div className="px-5 mx-auto">
                         <div className="grid grid-cols-2">
